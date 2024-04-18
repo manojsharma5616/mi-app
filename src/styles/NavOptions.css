@@ -1,0 +1,26 @@
+.NavOptions{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vmax;
+    overflow-x: scroll;
+    max-width: 90%;
+    margin: auto;
+}
+.NavOptions::-webkit-scrollbar{
+    display: none;
+}
+.NavCard{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax 0vmax;
+}
+.NavCard p{
+    margin: 0px;
+}
+.NavCard b{
+    color: orangered;
+}

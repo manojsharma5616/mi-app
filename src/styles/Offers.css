@@ -1,0 +1,15 @@
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1vmax;
+    overflow-x: hidden;
+}
+.offer img{
+    margin: 0 1vmax;
+    transition: all 0.5s;
+}
+.offer img:hover{
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+}

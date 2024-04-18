@@ -1,0 +1,114 @@
+.footer{
+    background-color: rgb(216, 212, 212);
+    padding: 20px 0px;
+    padding-bottom: 0px;
+}
+.preFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: white;
+}
+.preFooter>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: rgba(66, 66, 66, 0.829);
+}
+.preFooter>div>svg{
+font-size: 50px;
+}
+/* preFooter-2 */
+.preFooter-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+.preFooter-2>div:nth-child(2)>div{
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.preFooter-2>div:nth-child(2)>div>input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.preFooter-2 p{
+    margin: 3px 0px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(65, 64, 64);
+}
+.preFooter-2 span{
+    color: rgb(92, 87, 87);
+}
+.preFooter-2>div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.preFooter-2>div:last-child>svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+.preFooter-2>div:last-child>svg:hover{
+    fill: rgb(107, 110, 110);
+}
+/* ---------------preFooter-3-------*/
+.preFooter-3{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: rgb(36, 36, 36);
+    padding: 1vmax 2vmax;
+}
+.preFooter-3>div{
+    display: flex;
+    flex-direction: column;
+}
+.preFooter-3>div>p{
+    margin: 1.5vmax 0vmax;
+    color: rgb(216, 212, 212);
+}
+.preFooter-3>div>a{
+    margin: 0.5vmax;
+    text-decoration: none;
+    color: rgb(135, 137, 137);
+}
+.preFooter-3>div>a:hover{
+    color: white;
+}
+.preFooter-3>div:last-child>button{
+    padding: 7px;
+    text-align: center;
+    width: 80%;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.9s;
+    font-size: 20px;
+}
+.preFooter-3>div:last-child>button:hover{
+    color: black;
+    background-color: white;
+}
+/* ---copyRigth---- */
+.copyRight{
+    background-color: rgb(36, 36, 36);
+    padding: 1vmax 2vmax;
+}
+.copyRight>div{
+    border-top: 1px solid rgb(99, 94, 94);
+    color: rgb(151, 145, 145);
+    width: 85%;
+    margin: auto;
+    padding: 1vmax;
+}

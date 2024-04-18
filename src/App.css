@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+  margin: 0;
+  background-color: rgb(230, 227, 227);
+}
+
